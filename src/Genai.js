@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 import MarkdownIt from "markdown-it";
 
-const API_KEY = "AIzaSyDSl-f4Ml6sjanUPIdRgwFhGCAfXIHbgqk";
+const API_KEY = "API- KEY HERE";
 
 export default function Genai() {
   const [prompt, setPrompt] = useState("");
